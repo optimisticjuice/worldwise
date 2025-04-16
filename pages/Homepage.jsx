@@ -6,7 +6,7 @@ function Homepage() {
             <PageNav/>
         {/* This part the PageNav is shown on all pages regardless according to its postioning */}
         <h1>Welcome to the Homepage</h1>
-        <p>This is the main page of our application.</p>
+        <p className="test">This is the main page of our application.</p>
         </div>
     );
 }

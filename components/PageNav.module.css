@@ -1,0 +1,13 @@
+.nav ul{
+    display: flex;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.nav{
+    background-color: peachpuff;
+}
+:global(.test){
+    background-color:pink;
+}
+/* Use classNames for better styling management */
