@@ -13,7 +13,14 @@ function App() {
       <Route path="/" element={<Homepage />} />
       <Route path="/product" element={<Product />} />
       <Route path="/pricing" element={<Pricing />} />
-      <Route path="/app" element={<AppLayout />} />
+      <Route path="/app" element={<AppLayout />} >
+      <Route index element={<p>Welcome to the cities</p>} /> {/* Default route for /app */}
+      <Route path="cities" element={<p>You All</p>}/>
+      <Route path="countries" element={<p>Hi Yall</p>}/>
+      <Route path="form" element={<p>Form Element </p>}/>
+      
+      </Route>
+
        <Route path="/login" element={<Login />} />
       <Route path="*" element={<PageNotFound/>} /> {/* Added About route */}
       {/* Define your routes here */}
