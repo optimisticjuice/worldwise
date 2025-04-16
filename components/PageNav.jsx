@@ -5,8 +5,6 @@ import Logo from "./Logo"; // Import the Logo component
 function PageNav() {
     return (
         <nav className={styles.nav}>
-            
-
             <ul>
                 <li><Logo /> {/* Add the Logo component here */}</li> 
                 <li><Link to="/product">Product</Link></li>
