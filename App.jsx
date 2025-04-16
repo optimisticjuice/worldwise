@@ -3,7 +3,7 @@ import Homepage from "./pages/Homepage";
 import Product from "./pages/Product";
 import Pricing from "./pages/Pricing";
 import PageNotFound from "./pages/PageNotFound"; // Import the PageNotFound component
-import AppNav from "./components/AppNav"; // Import the AppLayout component
+import AppLayout from "./pages/AppLayout"; // Import the AppLayout component
 import Login from "./pages/Login";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Route path="/" element={<Homepage />} />
       <Route path="/product" element={<Product />} />
       <Route path="/pricing" element={<Pricing />} />
-      <Route path="/app" element={<AppNav />} />
+      <Route path="/app" element={<AppLayout />} />
        <Route path="/login" element={<Login />} />
       <Route path="*" element={<PageNotFound/>} /> {/* Added About route */}
       {/* Define your routes here */}

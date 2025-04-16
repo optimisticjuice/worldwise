@@ -11,6 +11,7 @@ function PageNav() {
                 <li><Logo /> {/* Add the Logo component here */}</li> 
                 <li><Link to="/product">Product</Link></li>
                 <li><Link to="/pricing">Pricing</Link></li>
+                <li><Link to="/app">App</Link></li>
                 <li><NavLink to="/login">Login</NavLink></li>
             </ul>
         </nav>
