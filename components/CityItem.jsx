@@ -1,8 +1,8 @@
 function CityItem(){
    return(
-     <div>
+     <li>
        
-     </div>
+     </li>
 )
 }
  export default CityItem
