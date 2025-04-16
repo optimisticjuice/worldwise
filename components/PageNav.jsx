@@ -1,13 +1,17 @@
-import { Link } from "react-router-dom";
+import { NavLink , Link } from "react-router-dom";
 import styles from "./PageNav.module.css"; // Import the CSS module
+import Logo from "./Logo"; // Import the Logo component
 
 function PageNav() {
     return (
         <nav className={styles.nav}>
+            
+
             <ul>
-                <li><Link to="/">Home</Link></li>
+                <li><Logo /> {/* Add the Logo component here */}</li> 
                 <li><Link to="/product">Product</Link></li>
                 <li><Link to="/pricing">Pricing</Link></li>
+                <li><NavLink to="/login">Login</NavLink></li>
             </ul>
         </nav>
     );

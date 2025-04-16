@@ -1,14 +1,27 @@
+// Uses the same styles as Product
 import PageNav from "../components/PageNav";
-function Pricing(){
-    return (
-        <div>
-            <PageNav/>
-            <h1>Pricing</h1>
-            <p>This is the Pricing page.</p>
-            <p>Here you can find the pricing details for our products.</p>
-        </div>
-    );
-}
+import styles from "./Pricing.module.css";
 
-export default Pricing;
-// Compare this snippet from world_wise/App.jsx:
+export default function Product() {
+  return (
+    <main className={styles.pricing}>
+      <PageNav />
+
+      <section>
+        <div>
+          <h2>
+            Simple pricing.
+            <br />
+            Just $9/month.
+          </h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae vel
+            labore mollitia iusto. Recusandae quos provident, laboriosam fugit
+            voluptatem iste.
+          </p>
+        </div>
+        <img src="img-2.jpg" alt="overview of a large city with skyscrapers" />
+      </section>
+    </main>
+  );
+}
