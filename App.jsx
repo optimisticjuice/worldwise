@@ -52,9 +52,11 @@ return (
       <Route path="*" element={<PageNotFound/>} /> {/* Added About route */}
       {/* Define your routes here */}
 
-    </Routes>
+    </Routes> 
 </BrowserRouter>
-  );
+// One more commit for good luck and testing if everything works as it should
+
+);
 }
 
 export default App;
