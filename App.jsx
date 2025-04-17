@@ -7,7 +7,7 @@ import AppLayout from "./pages/AppLayout"; // Import the AppLayout component
 import Login from "./pages/Login";
 import CityList from "./components/CityList";
 import { useEffect, useState } from "react";
-const BASE_URL = "https://localhost:9000";
+const BASE_URL = "http://localhost:9000";
 
 function App() {
   const [cities, setCities] = useState([]);

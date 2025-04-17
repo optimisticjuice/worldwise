@@ -71,11 +71,3 @@ input:focus {
 /* This index.css a global file that provides styles for the entire application */
 /* Because it placed inside the funnel/main.jsx and that tells the entire program its layout in css */
 
-/*
-"importCSSModule": {
-    "prefix": "csm",
-    "scope": "javascript,typescript,javascriptreact",
-    "body": ["import styles from './${TM_FILENAME_BASE}.module.css'"],
-    "description": "Import CSS Module as `styles`"
-  },
-*/
