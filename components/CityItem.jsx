@@ -10,7 +10,7 @@ const formatDate = (data) => {
 
 function CityItem({city}){
     const {cityName, emoji, date} = city;
-
+    
   return(
      <li className={cityItem}>
        <span className={styles.emoji}>{emoji}</span>
